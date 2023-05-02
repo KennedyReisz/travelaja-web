@@ -1,0 +1,56 @@
+.headerContainer {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: fixed;
+  background-color: transparent;
+  color: #fff;
+}
+
+// Header Logo
+.headerContainer > .headerLogo {
+  font-weight: 400;
+}
+
+// Header Navbar
+.headerContainer > .headerNavbar {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.headerContainer > .headerNavbar > .headerLink {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 1rem;
+  transition: all ease 500ms;
+}
+
+.headerContainer > .headerNavbar > .headerLink:hover {
+  background-color: #ffffff20;
+}
+
+// Header Lang
+.headerContainer > .headerLang {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerContainer > .headerLang > select {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+}
+
+.headerContainer > .headerLang > select > option {
+  color: #000;
+}
