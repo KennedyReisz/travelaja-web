@@ -8,4 +8,22 @@
   padding-left: 50px;
   padding-right: 50px;
   background: url(../../assets/background.png) no-repeat center / cover;
+  color: #fff;
+}
+
+.homePage > .homeMainText {
+  text-align: center;
+  font-weight: 400;
+  font-size: 47.78px;
+  line-height: 120%;
+  margin-bottom: 1rem;
+}
+
+.homePage > .mainTextDescription {
+  width: 686px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  margin-bottom: 6.5rem;
 }
